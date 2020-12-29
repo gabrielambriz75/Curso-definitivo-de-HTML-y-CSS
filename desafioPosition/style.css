@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'starWars';
+    src: url('/font/Starjedi.ttf');
+}
+
+body {
+    font-family: 'starWars';
+}
+
+main {
+    top: 50%;
+    padding: 50% 30%;
+
+}
+
+.fondo {
+    padding: 20px 20px;
+    background-image: url(/imagenes/Space.png);
+    position: absolute;
+    padding: 5% 5%;
+
+}
+
+.fondo p {
+    color: #FFE81F;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.contenedor {
+    background-color: #2a9d8f;
+    border: 4px #287271 solid;
+    height: 50rem;
+    width: 45rem;
+    border-radius: 3.5rem;
+    position: relative;
+    margin: 8% 0%;
+    padding: 0% 5%;
+}
+
+.contenedor .icono {
+    margin: 0 0 20px 0px;
+    height: 108px;
+    
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.contenedor .icono p {
+    font-size: 1.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 100px;
+   padding-left: 20%;
+}
+
+.contenedor .icono span {
+    position: relative;
+    color: #36827f;
+    font-size: 8rem;
+    padding-left: 10%;
+}
+
+.contenedor figure {
+    border: 2px black solid;
+    width: 158px;
+    border-radius: 1.5rem;
+    margin: 5% 30%;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+figure img {
+    height: 202px;
+    width: 154px;
+    border-radius: 1.2rem;
+
+}
