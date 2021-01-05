@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    height: 70px;
+    width: 100%;
+}
+
+header figure {
+    padding: 1% 5% 1% 5%;
+    display: inline-block;
+}
+
+header img {
+    height: 30px;
+    width: 90px;
+    margin: auto;
+}
+
+
+header .nav {
+    padding-left: 55%;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+
+header li {
+    display: inline-block;
+    font-size: 2.0rem;
+    padding-left: 20px;
+    padding-right: 20pxs;
+}
+
+
+main {
+    background-color: #F2F2F2;
+    height: 650px;
+}
+
+main .sidebar {
+    height: 100%;
+    background-color: #030d1b;
+    width: 20%;
+    padding-top: 3px;
+    display: inline-block;
+
+}
+
+main .registro {
+    margin: 30px 20px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+main .registro img {
+    height: 170px;
+    width: 264px;
+    border-radius: 10px;
+}
+
+main .registro figcaption {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+main .cotizador {
+    margin: 30px 20px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+main .cotizador img {
+    height: 170px;
+    width: 264px;
+    border-radius: 10px;
+}
+
+main .cotizador figcaption {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+
+main .financiamiento {
+    margin: 20px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+main .financiamiento img {
+    height: 170px;
+    width: 264px;
+    border-radius: 10px;
+}
+
+main .financiamiento figcaption {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+
+main .content {
+    height: 650px;
+    width: 79%;
+    position: absolute;
+    display: inline-block;
+    padding: 6%;
+}
+
+.content figure {
+    height: 100%;
+    margin: 0px 50px;
+    background-color: white;
+}
+
+figure .info {
+    display: inline-block;
+    position: absolute;
+}
+
+/* figure .info p{
+   
+    font-size: 2.5rem;
+} */
+
+figure .info {
+    margin-top: 80px;
+}
+
+figure .info .title {
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+figure .info #indented {
+    margin-top: 30px;
+    font-size: 2rem;
+    padding-right: 130px;
+}
+
+figure .info .more-info {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-style: oblique;
+}
+
+
+.content img {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+footer {
+
+    height: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+footer .social-networking {
+    list-style: none;
+    padding-top: 10px;
+}
+
+footer li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
